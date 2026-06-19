@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <style>
+        @import url();
+        body{
+            font-family: 'Work Sans', Helvetica, sans-serif;
+            /*
+            Medidas Absolutas
+            cm,mn,in(polegada),px,pt,pc as vezes o navegador nao consegue adaptar corretamente ate o pixel.
+            
+            Medidas Relativas
+            em(altura do m da fonte), ex(altura do x da fonte),rem(tipo em so que relativo a fonte cnfigrada no body), vw(porcentagem da viewport),vh(altura da viewport) e % 
+
+            16px geeralmente = 1em
+            */
+
+            font-size: em;
+            font-weight: ;
+            /*lighter normal bold bolder*/
+            font-style: italic;
+            text-decoration: underline;
+        }
+
+        h1{
+
+            /*
+            font-family: 'Work Sans',sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+            
+            shorthand font
+            - font-style -> font-weight -> font-size -> font-family
+            */
+
+            font: italic bolder 3em 'Work Sans', sans-serif;
+        }
+
+        h2{
+            font: bold 2em 'Work Sans'
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste aliquid, aspernatur voluptatum amet id, impedit dolor suscipit laudantium reprehenderit eaque atque! Deserunt, autem dolorem dicta velit non cumque aliquid ducimus?Lorem ipsum dolor, sit amet consectetur adipisicing elit. Totam officia est in pariatur atque, magnam doloribus voluptates nam cum a esse neque quis reiciendis ad? Quae odit velit cumque Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel amet accusantium, enim esse voluptatum voluptas quae assumenda commodi, dolorem ea accusamus necessitatibus laboriosam sit beatae! Eaque eligendi ipsam mollitia. Assumenda?
+    </p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt facere possimus, inventore at modi tempore! Voluptates ad blanditiis ab assumenda adipisci, itaque ut, impedit quis, eius mollitia suscipit praesentium aliquid!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit ipsum eaque beatae voluptas assumenda, animi optio nihil alias consequuntur, sapiente ullam expedita ex, impedit veritatis doloremque saepe veniam voluptatibus sequi. Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, suscipit voluptatibus delectus, ducimus doloremque iste a enim ipsa mollitia eveniet ab voluptates, perferendis nostrum repellendus nisi? Quo esse commodi ullam.</p>
+
+</body>
+</html>
